@@ -1,0 +1,78 @@
+<!--
+  Generated template for the PromoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content parallax-header>
+
+  <!--<div class="header-image"></div>-->
+  <div class="header-image">
+    <img src={{actualPromo.picture}}/>
+  </div>
+  <div class="main-content">
+    <div class="underline"></div>
+    <div class=promoTitle>
+      {{actualPromo.title}}
+    </div>
+
+    <div class=viewComment>
+      <button class="viewCommentButton"  (click)="seeComments()" > comments ></button>
+    </div>
+
+    <div class=adress>
+      Adress
+    </div>
+    <div class=adressName>
+      {{street}} <br/>
+      {{city}}
+    </div>
+
+
+
+    <div class=adress>
+      Price
+    </div>
+    <div class=adressName>
+      {{actualPromo.price}} €
+    </div>
+
+    <div class=beginDate>
+      Begin date
+    </div>
+    <div class=adressName>
+      {{actualPromo.dateBegin}}
+    </div>
+
+    <div class=endDate>
+      End date
+    </div>
+    <div class=endDateName>
+      {{actualPromo.dateEnd}}
+    </div>
+
+    <div class="line"></div>
+
+    <div class="description">
+      {{actualPromo.description}}
+    </div>
+    <div class="note">
+      <img class="dislikeButton" src="https://image.noelshack.com/fichiers/2017/24/1/1497289890-dislike.png"/>
+      <div class= score> {{actualPromo.score}} </div>
+      <img class="likeButton"  src="https://image.noelshack.com/fichiers/2017/24/1/1497289655-like.png"/>
+    </div>
+
+
+    <textarea class="commentary" placeholder="Write a commentary" [(ngModel)]="newCommentary.text" ></textarea>
+    <ion-item class="scoreInput">
+      <ion-range min="-1" max="1" step="2" snaps="true" [(ngModel)]="newCommentary.score" color="danger">
+        <img class="dislikeCursor" range-left src="https://image.noelshack.com/fichiers/2017/24/1/1497289890-dislike.png"/>
+        <img class="likeCursor" range-right src="https://image.noelshack.com/fichiers/2017/24/1/1497289655-like.png"/>
+      </ion-range>
+    </ion-item>
+    <div class="innerDiv">
+      <button (click)="addCommentary()" class="commentButton"> Comment </button>
+    </div>
+  </div>
+
+</ion-content>

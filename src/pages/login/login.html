@@ -1,0 +1,21 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-content padding class="pane">
+  <div class="title"> Appli Name </div>
+
+  <div class="formDiv">
+    <input class="userName" type="text" placeholder="User Name" [(ngModel)]="name"> <br>
+    <input class="password" type="password" placeholder="Password" [(ngModel)]="password"> <br>
+    <button class="loginButton" (click)="login()">Login</button>
+    <button class="facebookButton">Login with facebook</button>
+    <button class="signUpButton" (click)="goToSignUp()">Sign Up</button>
+  </div>
+
+
+
+</ion-content>

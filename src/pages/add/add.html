@@ -1,0 +1,76 @@
+<!--
+  Generated template for the AddPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content class="background">
+  <div class="promoCreation"> Create a promotion </div>
+  <input  class="form" type="text" placeholder="Promo name" [(ngModel)]="promo.title">
+  <input  class="form" type="text" placeholder="Promo price" [(ngModel)]="promo.price"> <br>
+  <ion-item class="date">
+    <ion-label>Begin date</ion-label>
+    <ion-datetime class="displayDate" displayFormat="DD/MM/YYYY" [(ngModel)]="beginDate"></ion-datetime>
+  </ion-item>
+
+  <ion-item class="date">
+    <ion-label>End date</ion-label>
+    <ion-datetime class="displayDate" displayFormat="DD/MM/YYYY" [(ngModel)]="endDate"></ion-datetime>
+  </ion-item>
+
+  <ion-item class="categoryWrapper">
+    <ion-label>Category</ion-label>
+    <ion-select class="category" [(ngModel)]="promo.category">
+      <ion-option value="Food">Food</ion-option>
+      <ion-option value="Clothes">Clothes</ion-option>
+      <ion-option value="Video Games">Video Games</ion-option>
+      <ion-option value="DVD">DVD</ion-option>
+    </ion-select>
+  </ion-item>
+
+  <textarea class="description" placeholder="Description" [(ngModel)]="promo.description" ></textarea>
+
+  <button class="pictureButton" (click)="takePicture()">Take a Picture</button>
+  <img class="picture" [src]="base64Image" *ngIf="base64Image" />
+  <button class="addButton" (click)="postPromo()">Add</button>
+
+
+
+
+  <!--<ion-list>
+    <ion-item-group>
+      <ion-item>
+          <ion-label stacked> Title</ion-label>
+          <ion-input type="text" placeholder="" [(ngModel)]="promo.title"></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-label stacked> Price</ion-label>
+          <ion-input type="text" placeholder="" [(ngModel)]="promo.price"></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-label floating> Description</ion-label>
+          <ion-input type="text" placeholder="" [(ngModel)]="promo.description"></ion-input>
+      </ion-item>
+    </ion-item-group>
+  </ion-list>
+  <ion-content class="home">
+  <ion-item>
+  <ion-label>Category</ion-label>
+    <ion-select [(ngModel)]="promo.category">
+      <ion-option value="Food">Food</ion-option>
+      <ion-option value="Clothes">Clothes</ion-option>
+      <ion-option value="Video Games">Video Games</ion-option>
+      <ion-option value="DVD">DVD</ion-option>
+    </ion-select>
+  </ion-item>
+  <ion-card>
+    <ion-card-content>
+      <button (click)="takePicture()">Take a Picture</button>
+
+      Latest Picture:
+      <img [src]="base64Image" *ngIf="base64Image" />
+    </ion-card-content>
+  </ion-card>
+  <button ion-button full (click)=postPromo()>Add</button>
+  <button ion-button full (click)=takePicture()>Camera</button> -->
+</ion-content>

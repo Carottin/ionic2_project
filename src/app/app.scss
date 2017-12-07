@@ -1,0 +1,84 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+@font-face {
+font-family: "Back to Black Bold Demo";
+src: url("../www/assets/fonts/Back to Black Bold Demo.tff") format("opentype");
+}
+
+.profilImageDiv {
+  text-align: center;
+}
+
+.profilImage {
+  width:100px;
+  height:100px;
+  margin-top:10px;
+}
+
+.menu{
+  background-color:#1B1D1E;
+}
+
+.listCategory button:nth-child(even){ background: transparent; }
+.listCategory button:nth-child(odd) { background: #101111; }
+
+
+.menuButton {
+  height:5px;
+  width:100%;
+  color:white;
+  padding-left:50px;
+  font-family: roboto;
+  font-size: 12px;
+}
+
+.settingButton {
+  background-color:#F27C65;
+  margin-top:10px;
+  margin-bottom:10px;
+  color:white;
+  width:80%;
+  height:40px;
+}
+
+.settingButton:active {
+  background-color:#B55D4C;
+}
+
+.profilName {
+  margin-top:10px;
+  text-align: center;
+  color:white;
+  font-family: roboto;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.logOutButton {
+  margin-top:5px;
+  color:white;
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  width:150px;
+  height:40px;
+  margin-bottom:5px;
+  border-radius: 25px;
+  font-family: roboto;
+}

@@ -1,0 +1,55 @@
+<ion-header class="header">
+  <ion-navbar class="header">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <div class="outterSetting" full>
+      <img class="settingsButton" src="https://image.noelshack.com/fichiers/2017/24/4/1497523953-settings-1.png" (click)="goToSettings()"/>
+    </div>
+    <ion-title></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="background">
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <ion-item class="categoryWrapper" interface="action-sheet">
+    <ion-label>Sort</ion-label>
+    <ion-select class="tri" (ionChange)="doRefresh()" [(ngModel)]="category.sortType">
+      <ion-option value="Time">Time</ion-option>
+      <ion-option value="Distance">Distance</ion-option>
+      <ion-option value="Score">Score</ion-option>
+    </ion-select>
+  </ion-item>
+
+  <div *ngFor="let promo of promosList | reverse" (click)="goToPromo(promo)"  class="promo">
+    <div class="promoPicture">
+      <img src={{promo.picture}}/>
+    </div>
+    <div class="promoTitle">
+      {{promo.title}}
+    </div>
+    <div class="price">
+      {{promo.price}}€
+    </div>
+    <div class="description">
+      {{promo.description}}
+    </div>
+    <div class="distance">
+      At {{promo.distance}} m
+    </div>
+    <div class="promoScore">
+      {{promo.score}}
+      <img class="likeImage"  src="https://image.noelshack.com/fichiers/2017/24/4/1497522200-like-black.png"/>
+    </div>
+    <div class="addTime">
+      {{promo.timeAdded}} {{promo.dateType}} ago
+    </div>
+  </div>
+
+  <ion-fab class="addButton" right bottom (click)="addContent()">
+    <button ion-fab><ion-icon name="add" ></ion-icon></button>
+  </ion-fab>
+</ion-content>

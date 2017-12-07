@@ -1,0 +1,221 @@
+page-promo {
+  .promoImage{
+      overflow:hidden;
+      width:100%;
+      height:40%;
+    }
+
+    .promoBackground{
+      background-color: #1B1D1E;
+      width:100%;
+      height:100%;
+    }
+
+    .promoTitle{
+      text-align: left;
+      color:white;
+      margin-left: 15px;
+      margin-top: 10px;
+      font-family: Roboto;
+      font-size:18px;
+    }
+
+    .viewComment{
+      margin-top:-23px;
+      text-align:right;
+      margin-right:10px;
+    }
+
+    .viewCommentButton{
+        width:100px;
+        height:25px;
+        color:white;
+        background-color: transparent;
+        border-color: white;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .viewCommentButton:active{
+        background-color: white;
+        color: black;
+    }
+
+    .underline{
+      width:100%;
+      height:1px;
+      background-color: white;
+    }
+
+    .adress{
+      color:white;
+      font-size: 13px;
+      margin-top: 10px;
+      margin-left:30px;
+    }
+    .adressName{
+      color:#F37D66;
+      font-size: 16px;
+      margin-top: 1px;
+      margin-left:30px;
+    }
+
+    .beginDate{
+      color:white;
+      text-align: left;
+      font-size: 13px;
+      margin-top: 10px;
+      margin-left:30px;
+    }
+    .beginDateName{
+      text-align: left;
+      color:#F37D66;
+      font-size: 16px;
+      margin-top: 1px;
+      margin-left:30px;
+    }
+    .endDate{
+      color:white;
+      text-align: right;
+      font-size: 13px;
+      margin-top: -40px;
+      margin-left:30px;
+      margin-right: 80px;
+    }
+    .endDateName{
+      text-align: right;
+      margin-right: 50px;
+      color:#F37D66;
+      font-size: 16px;
+      margin-top: 1px;
+
+    }
+
+    .outerDiv
+    {
+      text-align: center;
+    }
+    .line{
+      margin-top: 15px;
+      margin-left:auto;
+      margin-right:auto;
+      width:90%;
+      height:1px;
+      color:white;
+      background-color:white;
+    }
+    .description {
+      margin-top: 10px;
+      width:85%;
+      color:white;
+      margin-left: 20px;
+      font-style: roboto;
+      font-size: 12px;
+    }
+
+    .dislikeButton {
+      margin-left:33%;
+      height:30px;
+      width:30px;
+      margin-top: 3px;
+    }
+
+    .likeButton {
+      margin-top: -8px;
+      margin-left:15px;
+      height:30px;
+      width:30px;
+    }
+
+    .note {
+      margin-top: 20px;
+      display: flex;
+      text-align: left;
+    }
+
+    .score {
+      margin-top:5px;
+      margin-left:12px;
+      color:white;
+    }
+
+    .innerDiv{
+      text-align:center;
+    }
+    .commentButton {
+      margin-top:20px;
+      color:white;
+      background-color: transparent;
+      border-style: solid;
+      border-color: white;
+      border-width: 1px;
+      width:150px;
+      height:40px;
+      margin-bottom:20px;
+      border-radius: 25px;
+      font-family: roboto;
+    }
+    .commentButton:active {
+      color:black;
+      background-color: white;
+    }
+
+    .header-image {
+      background-image: url(https://ununsplash.imgix.net/photo-1421091242698-34f6ad7fc088?fit=crop&fm=jpg&h=650&q=75&w=950);
+      height: 40vh;
+    }
+
+    .main-content {
+      background-color: black;
+      width:100%;
+    }
+
+    .viewComment {
+
+    }
+
+    .commentary{
+      resize: none;
+      margin-left:20px;
+      margin-top:20px;
+      width:85%;
+      height:200px;
+      background-color: transparent;
+      border-color: white;
+      border-style: solid;
+      border-width: thin;
+      color:white;
+      padding-left:10px;
+      padding-top:10px;
+    }
+
+    .scoreInput {
+      background-color: transparent;
+      margin-left:20px;
+      width:85%;
+      border-width: 0px;
+    }
+
+    .item-md.item-block .item-inner {
+      padding-right: 8px;
+      border-bottom: 0;
+    }
+
+    .scoreNumber{
+      color:white;
+    }
+
+    .dislikeCursor {
+      margin-left:33%;
+      height:20px;
+      width:20px;
+    }
+
+    .likeCursor {
+      margin-left:15px;
+      height:20px;
+      width:20px;
+    }
+
+
+}

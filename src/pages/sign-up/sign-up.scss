@@ -1,0 +1,62 @@
+page-sign-up {
+  .pane {
+      background: url("https://s-media-cache-ak0.pinimg.com/originals/10/e8/df/10e8df54fec54674d945b5c9ec5542da.jpg") no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+  }
+
+  .title {
+    font-family: "roboto";
+    color : white;
+    margin-top : 15%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .formDiv{
+    text-align : center;
+    margin-top: 20%;
+  }
+
+  .userName{
+    width:80%;
+    height : 35px;
+    background : none;
+    border:none;
+    text-align: left;
+    color:white;
+    border-bottom: 1px solid white;
+    font-size:16px;
+    background: url("https://image.noelshack.com/fichiers/2017/23/6/1497098072-user.png");
+    background-size: 28px 28px;
+    background-position: 7px 3px;
+    background-repeat: no-repeat;
+    padding-left:40px;
+  }
+
+  .password{
+    margin-top: 30px;;
+    width:80%;
+    height : 35px;
+    background : none;
+    border:none;
+    text-align: left;
+    color:white;
+    border-bottom: 1px solid white;
+    font-size:16px;
+    background: url("https://image.noelshack.com/fichiers/2017/23/6/1497098729-password.png");
+    background-size: 25px 25px;
+    background-position: 10px 3px;
+    background-repeat: no-repeat;
+    padding-left:40px;
+  }
+
+
+  .signUpButton {
+    background-color:#F27C65;
+    margin-top:50px;
+    color:white;
+    width:80%;
+    height:50px;
+  }
+}

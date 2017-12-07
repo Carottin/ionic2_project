@@ -1,0 +1,108 @@
+page-add {
+  .background{
+    background-color: #1B1D1E;
+  }
+
+  .promoCreation{
+    color::#F37D66;
+    margin-left:20px;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+
+  .form {
+    margin-left:20px;
+    margin-top:15px;
+    width:85%;
+    height : 35px;
+    background : none;
+    border:none;
+    text-align: left;
+    color:white;
+    border-bottom: 1px solid white;
+    font-size:16px;
+    background-size: 28px 28px;
+    background-position: 7px 3px;
+    background-repeat: no-repeat;
+    padding-left:5px;
+  }
+
+  .date{
+    background-color: transparent;
+    margin-top:5px;
+    margin-left:5px;
+    width:90%;
+  }
+
+  .displayDate{
+    color:white;
+  }
+
+  .description{
+    resize: none;
+    margin-left:20px;
+    margin-top:20px;
+    width:85%;
+    height:200px;
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    color:white;
+    padding-left:10px;
+    padding-top:10px;
+  }
+
+  .outterDiv{
+    text-align:center;
+  }
+
+  .picture{
+    width:85%;
+    margin-left:8%;
+    height:200px;
+    width:80%;
+  }
+  .pictureButton {
+    margin-left:8%;
+    background-color:#3A4A59;
+    margin-top:20px;
+    color:white;
+    width:80%;
+    height:50px;
+  }
+
+  .pictureButton:active {
+    background-color:#1A2128;
+  }
+
+  .addButton{
+    margin-left:8%;
+    background-color:#F27C65;
+    margin-top:20px;
+    color:white;
+    width:80%;
+    height:50px;
+    margin-bottom:10px;
+  }
+
+  .addButton:active {
+    background-color:#B55D4C;
+  }
+
+  .categoryWrapper
+  {
+    background-color: transparent;
+    margin-top:5px;
+    margin-left:5px;
+    width:90%;
+  }
+  .category {
+    background-color: transparent;
+    margin-top:5px;
+    margin-left:5px;
+    width:90%;
+    color:white;
+  }
+
+}

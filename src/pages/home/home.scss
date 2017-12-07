@@ -1,0 +1,112 @@
+page-home {
+  .toolbar-background {
+    background-color: black;
+  }
+
+  .logOutDiv{
+    text-align: right;
+  }
+
+  .background {
+    background-color: #1B1D1E;
+    text-align: center;
+  }
+
+  .promo {
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    height : 300px;
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+  }
+
+  .promoPicture {
+    overflow:hidden;
+    width:100%;
+    height:200px;
+  }
+
+  .promoTitle{
+    margin-top: 5px;
+    text-align: left;
+    margin-left:10px;
+    font-family: Roboto;
+    font-size: 20px;
+  }
+
+  .description{
+    height: 45px;
+    margin-top:5px;
+    text-align: left;
+    font-size: 10px;
+    margin-left:10px;
+    margin-right:10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .price{
+    text-align: right;
+    margin-top:-25px;
+    margin-right : 10px;
+    font-size:20px;
+  }
+
+  .addTime{
+    text-align: right;
+    font-size: 10px;
+    margin-top: -18px;
+    margin-right:10px;
+  }
+
+  .distance{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 10px;
+  }
+
+  .outterSetting{
+    text-align: right;
+  }
+
+  .settingsButton{
+    margin-top:5px;
+    height:25px;
+    width:25px;
+    margin-right:20px
+  }
+
+  .categoryWrapper
+  {
+    background-color: transparent;
+    margin-left:5px;
+    width:250px;
+    height:20px;
+  }
+  .tri {
+    background-color: transparent;
+    margin-top:5px;
+    margin-left:5px;
+    width:90%;
+    color:white;
+    text-align:right;
+  }
+
+  .likeImage {
+    height:20px;
+    width:20px;
+  }
+
+  .promoScore{
+    margin-top:-20px;
+    margin-left :30px;
+    font-size:22px;
+    margin-right:30px;
+    color::#F37D66;
+  }
+
+
+}
